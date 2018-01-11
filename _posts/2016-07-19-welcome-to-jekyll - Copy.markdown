@@ -1,25 +1,35 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2016-07-19 11:49:45 +0200
+title:  "这是我的第一篇博客"
+date:   2018-01-11 16:50:45 +0200
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+这是我的第一篇基于github构建的jekyll博客
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+下面分享我学习构建博客的教程链接:
 
-Jekyll also offers powerful support for code snippets:
+[Mac下Jekyll安装][jekyll-install] 
+[Mac下使用Jekyll和github搭建个人博客][jekyll-github]. 
+
+以上两篇博客教程十分详细,希望大家可以在闲暇时间搭建属于自己的博客
+
+下面是我搭建过程中用到的一些终端命令,希望可以帮到你哟~
 
 {% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+jekyll 运行调试 : 
+1.cd 到 jekyll 项目所在目录下
+2.jekyll build
+3.jekyll server
+
+提交全部变更到github :
+1.git add -f *
+(*表示所有,提交指定文件,则写 : 完整路径名/文件名.后缀名)
+2.git commit -m “add test file”
+3.git push origin master
 {% endhighlight %}
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
 
-[jekyll-docs]: http://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+
+[jekyll-install]:https://www.jianshu.com/p/07064eb79740
+[jekyll-github]:http://blog.csdn.net/alex_my/article/details/56481922
+
