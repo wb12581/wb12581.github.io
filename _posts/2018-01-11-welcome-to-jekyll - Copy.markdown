@@ -6,10 +6,14 @@ categories: jekyll update
 ---
 这是我的第一篇基于github构建的jekyll博客
 
+
 下面分享我学习构建博客的教程链接:
 
+
 [Mac下Jekyll安装][jekyll-install] 
-[Mac下使用Jekyll和github搭建个人博客][jekyll-github]. 
+
+
+[Mac下使用Jekyll和github搭建个人博客][jekyll-github]
 
 以上两篇博客教程十分详细,希望大家可以在闲暇时间搭建属于自己的博客
 
